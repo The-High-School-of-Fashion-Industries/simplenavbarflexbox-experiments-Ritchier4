@@ -1,21 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- Sets the coding language to html(?) helps browsers to display web pages correctly.-->
 <html lang="en">
+<!-- sets the language to english -->
+
 <head>
+    <!-- Creates the head element which contains all of the elements that aren't visible on the webpage itself but control how it works. MUST end in </head> to seperate from the body -->
     <meta charset="UTF-8">
+    <!-- specifies the character encoding for the HTML document. UTF-8 is encouraged for web developers to use as it covers almost all characters and symbols in the world -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- name="viewport" controls the viewport(the user's visible area of a web page, sets the width of the webpage to the width of the device's screen -->
     <title>Flexbox Navigation Bar</title>
+    <!-- sets the name of the tab to Flexbox Navigation Bar -->
     <link rel="stylesheet" href="style.css">
+    <!-- link tag is most often used to link to external style sheets. It is an empty element, meaning that it contains attributes only. rel specifies the relationship between the current document and linked document and href provides the link to the linked document for the curren document -->
 </head>
+
 <body>
-    <nav class="navbar">
+    <!-- Creates the body element which acts as a container for all of the visible elements of a webpage.-->
+    <nav class="navbar"> 
+        <!-- the <nav> tag defines the set of navigation links. Class="navbar" sets the class to "navbar" found in style.css (the style sheet) -->
         <div class="logo">MyBrand</div>
+        <!-- creates a div assigned to the class, "logo", and adds MyBrand into it's content -->
         <ul class="nav-links">
+            <!-- ul tag defines an unordered (bulleted) list, class assigned the ul tag to the class named "nav-links". Ends in <ul> (BTW thats an L not a 1)-->
             <li><a href="#home">Home</a></li>
+            <!-- li tag defines a list item and is used in ordered lists(<ol>), unordered lists(<ul>), and in menu lists (<menu>). The a tag defines the hyperlink and href defines the linked document. Home is the content. -->
             <li><a href="#about">About</a></li>
+            <!-- the same thing but for the about document -->
             <li><a href="#services">Services</a></li>
+            <!-- the same thing but for the services document -->
             <li><a href="#portfolio">Portfolio</a></li>
+            <!-- the same thing but for the portfolio document -->
             <li><a href="#contact">Contact</a></li>
+            <!-- the same thing but for the contact document -->
         </ul>
     </nav>
 </body>
-</html>
+</html> 
+
+<!-- do ctrl + / for comment shortcut -->
