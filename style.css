@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+/* creates a class named "navbar". Background-color sets the background color to a dark gray color. Padding sizes the space between the border and content. Justify-content and align-items spaces the navigation bar*/
 
 .logo {
     color: #fff;
