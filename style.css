@@ -1,8 +1,9 @@
-/* * {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
+
 
 body {
     font-family: 'Arial', sans-serif;
@@ -15,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+/* creates a class named "navbar". Background-color sets the background color to a dark gray color. Padding sizes the space between the border and content. Justify-content and align-items spaces the navigation bar*/
 
 .logo {
     color: #fff;
@@ -40,6 +42,8 @@ body {
 }
 
 /* Responsive Design */
+
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -52,3 +56,7 @@ body {
         text-align: center;
     }
 }
+
+/* do ctrl + / for comment shortcut  */
+
+
